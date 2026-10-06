@@ -1,4 +1,4 @@
-import styles from "./searchBox.module.css";
+import styles from "./SearchBox.module.css";
 import { RiSearchLine } from "react-icons/ri";
 
 function SearchBox({ search, setSearch, searchHandler }) {
