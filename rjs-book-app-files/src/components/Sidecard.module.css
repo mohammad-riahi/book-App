@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    background-color: rgb(83, 98, 180);
+    border-radius: px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+   
+
+}
+
+.container img {
+    width: 30px;
+    margin-right: 15px;
+    
+}
+
+.container p {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}

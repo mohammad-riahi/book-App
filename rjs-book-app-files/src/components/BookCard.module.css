@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid none;
+  background-color: rgb(26, 61, 76);
+  border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  
+}
+
+.card img {
+  margin-right: 30px;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.info span {
+  margin-right: 30px;
+  font-size: smaller;
+  font-weight: 200;
+}
+
+.card button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.card button:hover {
+  transform: scale(1.3);
+  transition: 0.1ms all ease-in-out;
+}
+
+.isliked {
+  color: red;
+}
+
+.notliked {
+  color: white;
+}
